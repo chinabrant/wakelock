@@ -12,7 +12,10 @@ dependencies:
   flutter:
     sdk: flutter
 
-  wakelock_platform_interface: ^0.3.0
+  wakelock_platform_interface: #^0.3.0
+    git:
+      url: 'https://github.com/chinabrant/wakelock.git'
+      path: 'wakelock_platform_interface'
   win32: ">=4.0.0 <6.0.0"
 
 dev_dependencies:
